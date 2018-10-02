@@ -1,0 +1,41 @@
+@import './normalize.css';
+@import './header.css';
+@import './list-film.css';
+@import './movie.css';
+@import './not-found.css';
+
+/* общие */
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #2b2b2b;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-page {
+  padding: 0 40px 0 40px;
+}
+
+.loader {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

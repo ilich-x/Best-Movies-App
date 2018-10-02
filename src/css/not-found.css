@@ -1,0 +1,10 @@
+.not-found {
+  text-align: center;
+}
+
+.not-found ._404 {
+  font-size: 30vw;
+  font-weight: bold;
+  color: #80808091;
+  text-shadow: -2px -2px 4px #bbb3b3;
+}

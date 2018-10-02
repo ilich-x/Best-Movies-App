@@ -1,0 +1,129 @@
+/* контент */
+/* .list-films {
+  padding: 0 40px 0 40px;
+} */
+
+.list-film-title {
+  display: inline-block;
+}
+
+.pagination {
+  float: right;
+  margin-top: 25px;
+}
+
+.pagination-button {
+  background: transparent;
+  padding: 8px 15px;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+.genre-selector {
+  display: block;
+  height: 40px;
+  width: 200px;
+  margin-bottom: 30px;
+  font-size: 17px;
+  background: #ffffff;
+  border: #00000017 1px solid;
+}
+
+/* карточки фильмов */
+.list-films-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.list-film-card {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  margin: 0 25px 50px 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.vote-average {
+  display: inline-block;
+  padding: 5px;
+  font-size: 14px;
+  border: 2px solid #00000033;
+  background: rgba(0, 0, 0, 0.4);
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.list-film-card .vote-average {
+  position: relative;
+  bottom: 435px;
+  left: 20px;
+}
+
+.vote-label {
+  margin-right: 5px;
+  color: rgba(225, 176, 21, 0.87);
+}
+
+.is-viewed {
+  position: relative;
+  float: right;
+  bottom: 435px;
+  right: 10px;
+  padding: 5px;
+  background: rgba(33, 107, 17, 0.1);
+  color: rgba(17, 183, 27, 1);
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.card-image {
+  height: 450px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card-footer {
+  padding: 10px 0 10px 10px;
+  background: #252525;
+  height: 70px;
+  box-shadow: inset 0 7px 15px rgba(0, 0, 0, 0.62);
+  border-radius: 0 0 8px 8px;
+}
+
+.card-footer-title {
+  margin: 3px 0 8px 0;
+  font-size: 14px;
+  font-weight: normal;
+  color: #efeaea;
+}
+
+.card-footer-year {
+  margin: 0;
+  font-size: 11px;
+  color: #bbb3b3;
+}
+
+button[disabled] {
+  opacity: 0.5;
+  cursor: default;
+}
+
+@media only screen and (max-width: 730px) {
+  .list-films-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .list-film-card {
+    margin: 0 0 50px 0;
+  }
+}

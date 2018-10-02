@@ -1,0 +1,130 @@
+.movie-info {
+  height: 100%;
+  color: #ffffff;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.movie-info-header a {
+  color: #ffffff;
+}
+
+.film-header {
+  margin-bottom: 30px;
+}
+
+.film-header .title {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.film-header .original-title {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #efeaea;
+}
+
+.film-header .vote-average {
+  vertical-align: text-bottom;
+  border: 1px solid #e8b90bb8;
+  background: rgba(193, 144, 5, 0.58);
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.block-poster {
+  float: left;
+  margin-right: 40px;
+}
+
+.poster {
+  width: 200px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.block-poster button {
+  width: 200px;
+  font-size: 14px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background: rgba(77, 78, 77, 0.52);
+  color: #f3f3f3;
+  border: 2px solid #a7a7a7;
+  border-radius: 5px;
+}
+
+.block-poster button.viewed {
+  background: rgba(33, 107, 17, 0.52);
+  color: rgba(17, 183, 27, 1);
+  border: 2px solid #008000;
+}
+
+.block-info {
+  display: inline-block;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.block-info .type-info {
+  vertical-align: top;
+  padding-bottom: 10px;
+  color: #efeaea;
+  min-width: 160px;
+}
+
+.block-info .value-info {
+  padding-bottom: 10px;
+}
+
+.block-actors {
+  float: right;
+  text-align: right;
+  font-size: 15px;
+}
+
+.block-actors .title {
+  margin: 0 0 10px 0;
+  font-size: 15px;
+}
+
+.block-actors .actors-list li {
+  margin-bottom: 10px;
+}
+
+a.dashed {
+  color: #a09d9d;
+  text-decoration: underline dashed;
+}
+
+@media only screen and (max-width: 730px) {
+  .film-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .block-info {
+    align-self: flex-start;
+  }
+
+  .block-actors {
+    align-self: flex-start;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .block-actors {
+    display: block;
+    text-align: left;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .movie-info {
+    height: auto;
+  }
+}
