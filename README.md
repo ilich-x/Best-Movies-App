@@ -1,6 +1,6 @@
 # Best Movies App
 
-## [Demo](https://best-movies-app.netlify.com/movies)
+## [Demo](https://best-movies-app.netlify.com)
 
 Приложение со списком фильмов и карточкой фильма. Для получения данных используется открытое [API TheMovieDB](https://www.themoviedb.org/documentation/api?language=ru).
 
